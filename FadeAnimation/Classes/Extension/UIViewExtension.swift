@@ -10,8 +10,6 @@ import UIKit
 
 extension UIView {
     
-    // MARK: - Animation
-    
     public func fadeIn(withDuration duration: TimeInterval = 1.0,
                 withHandler handler: (() -> Void)? = nil) {
         
