@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.resources 		= 'FadeAnimation/**/*.{xcassets,storyboard,xib,xcdatamodeld,lproj}'
 
   s.dependency 		'MBProgressHUD', '~> 1.0.0'
+  s.dependency 		'ReachabilitySwift', '~> 2.3.3'
 end
