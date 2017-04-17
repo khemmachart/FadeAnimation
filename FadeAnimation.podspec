@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files	= 'FadeAnimation/**/*.{swift}'
   s.resources 		= 'FadeAnimation/**/*.{xcassets,storyboard,xib,xcdatamodeld,lproj}'
 
-  s.dependency 		'MBProgressHUD', '~> 1.0.0'
-  s.dependency 		'ReachabilitySwift', '~> 2.3.3'
+  s.dependency		'SDWebImage', '~>3.8'
+  s.dependency		'Alamofire', '~> 4.4'
 end
