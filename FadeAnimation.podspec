@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.author          = { 'Khemmachart Chutapetch' => 'khemmachart@santoranakama.com' }
 
   s.source			= { :git => 'https://github.com/khemmachart/FadeAnimation.git', :tag => s.version.to_s}
-  s.source_files  	= 'FadeAnimation/**/*.{swift}'
+  s.source_files	= 'FadeAnimation/**/*.{swift}'
   s.resources 		= 'FadeAnimation/**/*.{xcassets,storyboard,xib,xcdatamodeld,lproj}'
 
+  s.dependency 		'MBProgressHUD', '~> 1.0.0'
 end
